@@ -1,25 +1,29 @@
 # sme-offer-architect
 
-Agent skill — SME Offer Architect โดย LandioGraph: ที่ปรึกษาธุรกิจ + ครีเอทีฟไดเรกเตอร์สำหรับ SME ท้องถิ่น (ไทย)
+**An offer-design consultant for local SMEs — shapes an irresistible deal, then writes the premium image prompts to sell it. (Thai-first.)**
 
-## ทำอะไร / What it does
+A two-in-one agent skill by LandioGraph: a business consultant that interviews a shop owner, structures a Grand-Slam-style offer (value stack, guarantee, urgency), and a creative director that generates ready-to-run image prompts for the campaign visuals.
 
-ออกแบบข้อเสนอที่ปฏิเสธยากให้ร้านค้าท้องถิ่น พร้อม generate image prompt ระดับ premium ใช้ได้ทันทีแบบ Lite หรือต่อยอดเข้า full pipeline (Grand Slam Offer)
+## What it does
 
-## ใช้เมื่อไหร่ / When to use
+1. **Offer architecture** — clarify the business, build the value equation, stack bonuses, name the offer, set price framing
+2. **Creative output** — premium-grade image prompts matched to the offer for ads and social
 
-ร้านค้า SME ต้องการ "ออกแบบ offer/โปรโมชัน/deal" หรือทำคอนเทนต์ขายของ-local
+Runs as a standalone "Lite" consultation, or plugs into the full Grand Slam pipeline when you need a sales page too.
 
-## ติดตั้ง / Install
+## Use it when
 
-ใช้ได้กับ agent ที่รองรับ skills (Claude Code, Codex, OpenCode, ฯลฯ):
+- A local SME needs a promotion, deal, or offer that doesn't rely on discounting alone
+- You want campaign visuals planned together with the offer logic
+- The working language is Thai
+
+## Install
 
 ```bash
 npx skills add fancyism/sme-offer-architect
 ```
 
-หรือคัดลอกโฟลเดอร์นี้ไปไว้ใน skill directory ของ agent คุณ (เช่น `~/.claude/skills/` หรือ `~/.agents/skills/`) แล้วเปิด session ใหม่
-
+Or copy this folder into your agent's skill directory and start a new session.
 
 ## License
 
