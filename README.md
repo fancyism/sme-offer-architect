@@ -15,7 +15,7 @@ Agent skill — SME Offer Architect โดย LandioGraph: ที่ปรึก
 ใช้ได้กับ agent ที่รองรับ skills (Claude Code, Codex, OpenCode, ฯลฯ):
 
 ```bash
-npx skills add kanomwhandev/sme-offer-architect
+npx skills add fancyism/sme-offer-architect
 ```
 
 หรือคัดลอกโฟลเดอร์นี้ไปไว้ใน skill directory ของ agent คุณ (เช่น `~/.claude/skills/` หรือ `~/.agents/skills/`) แล้วเปิด session ใหม่
